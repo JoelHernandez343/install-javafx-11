@@ -1,4 +1,4 @@
-# Instrucciones para desarrollar con JavaFx 11
+# Instrucciones para desarrollar con JavaFx 11 en Ubuntu/Derivados
 
 ## Instalando usando `install_javafx_11.sh`
 Agregar permisos de ejecución al script

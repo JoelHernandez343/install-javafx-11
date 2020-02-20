@@ -71,6 +71,7 @@ APT-Manual-Installed: yes
 APT-Sources: http://mx.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages
 Description: JavaFX/OpenJFX - Rich client application platform for Java
 ```
+
 ## Proyecto en Intellij:
 ### Creación del proyecto
 Ir a `File > New Project > Java Fx`, asegurarse que el SDK usado es la versión 11.
@@ -88,4 +89,4 @@ Ir a `Run > Edit Configurations... > Main > VM options` y agregar:
 --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web
 ```
 ### Ejecutando
-Si todo fue bien, vamor a `Run > Run > Main` y deberíamos de ver el programa JavaFx corriendo.
+Si todo fue bien, vamos a `Run > Run > Main` y deberíamos de ver el programa JavaFx corriendo.

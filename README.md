@@ -76,9 +76,11 @@ Description: JavaFX/OpenJFX - Rich client application platform for Java
 ### Creación del proyecto
 Ir a `File > New Project > Java Fx`, asegurarse que el SDK usado es la versión 11.
 ![Creación del proyecto](images/newProject.png)
+
 ### Añadiendo las librerías al proyecto
 Ir a `File > Project Structure > Libraries > Add > Java` y buscamos la ruta de instalación del SDK de JavaFx (`\lib`), nombrarlo por ejemplo `javafx` y clickear `Apply`.
 ![Agregando librería](images/library.png)
+
 La ruta se puede encontrar con:
 ```ssh
 dpkg -L openjfx
@@ -90,6 +92,7 @@ Ir a `Run > Edit Configurations... > Main > VM options` y agregar:
 --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web
 ```
 ![Opciones de la VM](images/vm.png)
+
 ### Ejecutando
 Si todo fue bien, vamos a `Run > Run > Main` y deberíamos de ver el programa JavaFx corriendo.
 ![Aplicación ejecutándose](images/run.png)
